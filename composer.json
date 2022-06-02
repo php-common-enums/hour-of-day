@@ -1,0 +1,25 @@
+{
+    "name": "php-common-enums/hour-of-day",
+    "description": "Provides a backed enum for hours of a day",
+    "keywords": ["enum"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHP Common Enums",
+            "homepage": "https://github.com/php-common-enums"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5 | ^9.5"
+    },
+    "autoload": {
+        "psr-4": { "PhpCommonEnums\\HourOfDay\\": "src" }
+    },
+    "autoload-dev": {
+        "psr-4": { "PhpCommonEnums\\HourOfDay\\Tests\\": "tests" }
+    }
+}
